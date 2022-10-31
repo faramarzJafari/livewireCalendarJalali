@@ -1,0 +1,35 @@
+{
+    "name": "fara/livewirecalendarjalali",
+    "description": "calendar jalali for livewire",
+    "type": "library",
+    "require": {
+        "php": "^8.0",
+        "livewire/livewire": "^2.10",
+        "morilog/jalali": "3.*"       
+    },
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "fara\\livewirecalendarjalali\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "fara",
+            "email": "faramarzjafari45@gmail.com"
+        }
+    ],
+    
+    "extra": {
+        "laravel":{
+            "providers":[
+                "fara\\livewirecalendarjalali\\LivewireCalendarServiceProvider"       
+            ],
+            "aliases":{
+                "infodate":"fara\\livewirecalendarjalali\\class\\infodate\\facade\\infodate"
+            }           
+                
+        }
+    }
+    
+}
