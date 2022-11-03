@@ -2,7 +2,7 @@
 
 namespace Tests\Feature\Models;
 
-use App\Models\User;
+use fara\livewirecalendarjalali\Models\User;
 use Illuminate\Foundation\Testing\RefreshDatabase;
 use Illuminate\Foundation\Testing\WithFaker;
 use Tests\TestCase;
