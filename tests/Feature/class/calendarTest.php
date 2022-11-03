@@ -2,7 +2,7 @@
 
 namespace Tests\Feature\class;
 
-use App\Http\Livewire\class\calendar;
+use fara\livewirecalendarjalali\class\calendar;
 use Illuminate\Foundation\Testing\RefreshDatabase;
 use Illuminate\Foundation\Testing\WithFaker;
 use Morilog\Jalali\Jalalian;
