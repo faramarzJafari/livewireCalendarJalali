@@ -2,9 +2,9 @@
 
 namespace Tests\Feature\class;
 
-use App\Http\Livewire\class\infodate\facade\infodate;
-use App\Models\calendarEvent;
-use App\Models\day;
+use fara\livewirecalendarjalali\class\infodate\facade\infodate;
+use fara\livewirecalendarjalali\Models\calendarEvent;
+use fara\livewirecalendarjalali\Models\day;
 use Illuminate\Foundation\Testing\RefreshDatabase;
 use Tests\TestCase;
 
