@@ -2,8 +2,8 @@
 
 namespace Tests\Feature\Livewire;
 
-use App\Http\Livewire\Search;
-use App\Models\calendarEvent;
+use fara\livewirecalendarjalali\Search;
+use fara\livewirecalendarjalali\Models\calendarEvent;
 use Illuminate\Foundation\Testing\RefreshDatabase;
 
 
