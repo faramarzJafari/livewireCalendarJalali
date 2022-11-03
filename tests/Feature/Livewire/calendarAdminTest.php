@@ -3,8 +3,8 @@
 namespace Tests\Feature\Livewire;
 ;
 
-use App\Http\Livewire\CalendarAdmin;
-use App\Http\Livewire\class\calendar;
+use fara\livewirecalendarjalali\CalendarAdmin;
+use fara\livewirecalendarjalali\class\calendar;
 use Illuminate\Foundation\Testing\RefreshDatabase;
 use Livewire\Livewire;
 use Tests\TestCase;
