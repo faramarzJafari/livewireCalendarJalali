@@ -16,6 +16,6 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/calendarAdmin',CalendarAdmin::class)->name('calendarAdmin');
-Route::get('/calendarAdmin/add_event/{timestamp}',AddEvent::class)->name('addEvent');
-Route::get('/calendarUser',CalendarUser::class)->name('calendarUser');
+Route::get('/calendarAdmin',CalendarAdmin::class)->name('calendarAdmin')->middleware('web');;
+Route::get('/calendarAdmin/add_event/{timestamp}',AddEvent::class)->name('addEvent')->middleware('web');;
+Route::get('/calendarUser',CalendarUser::class)->name('calendarUser')->middleware('web');;
