@@ -1,6 +1,7 @@
 {
     "name": "fara/livewirecalendarjalali",
     "description": "calendar jalali for livewire",
+    "version": "1.0.3"
     "type": "library",
     "require": {
         "php": "^8.*",
