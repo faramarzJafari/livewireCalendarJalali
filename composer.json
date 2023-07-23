@@ -1,12 +1,12 @@
 {
     "name": "fara/livewirecalendarjalali",
     "description": "calendar jalali for livewire",
-    "version": "1.0.3",
+    "version": "1.0.4",
     "type": "library",
     "require": {
-        "php": "^8.*",
-        "livewire/livewire": "^2.*",
-        "morilog/jalali": "3.*"       
+        "php": "^8.0",
+        "livewire/livewire": "^2.0",
+        "morilog/jalali": "^3.0"       
     },
     "license": "MIT",
     "autoload": {
